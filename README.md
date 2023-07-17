@@ -1,4 +1,4 @@
-                                               Amazon Product Availability Checker – Documentation
+  Amazon Product Availability Checker – Documentation
 
 1.	Introduction: The "Amazon Product Availability Checker" is a Python script that allows users to check the availability of a product on Amazon. It utilizes web scraping techniques to extract the availability information from the product's webpage.
 
@@ -30,10 +30,10 @@ Handling Unavailability: If the availability element is not found, the script di
 
 Calling the Function: Finally, the check_product_Availability() function is called to start the availability check process. The script prompts the user for a URL and performs the necessary operations to check and display the product availability.
 
-4.Usage
-When prompted, enter the URL of the product on Amazon.
-The script will send an HTTP request to the provided URL, scrape the HTML content, and search for the availability element.
-If the product is available, the script will display the availability information. Otherwise, it will indicate that the product is not available.
+  4.Usage
+  When prompted, enter the URL of the product on Amazon.
+  The script will send an HTTP request to the provided URL, scrape the HTML content, and search for the availability element.
+  If the product is available, the script will display the availability information. Otherwise, it will indicate that the product is not available.
 
 5. Conclusion: The Product Availability Checker script provides a simple way to check the availability of a product on a given website. By leveraging the requests, urllib3, and BeautifulSoup libraries, the script can fetch the HTML content of a web page, parse it, and extract the product availability information.
 
