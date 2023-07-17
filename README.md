@@ -1,6 +1,6 @@
   Amazon Product Availability Checker – Documentation
 
-1.	Introduction: The "Amazon Product Availability Checker" is a Python script that allows users to check the availability of a product on Amazon. It utilizes web scraping techniques to extract the availability information from the product's webpage.
+1.introduction: The "Amazon Product Availability Checker" is a Python script that allows users to check the availability of a product on Amazon. It utilizes web scraping techniques to extract the availability information from the product's webpage
 
 2.Installation: - Before using the script, ensure that you have Python installed on your system. You can download Python from the official Python websiteThe script utilizes the following libraries, which can be installed using the pip package manager:
 
@@ -11,6 +11,7 @@ urllib3: pip install urllib3:- urllib3 is a Python library that provides a highe
 BeautifulSoup: pip install beautifulsoup4:- Beautiful Soup (often abbreviated as BS4) is a Python library for parsing HTML and XML documents. It provides a convenient and powerful way to extract data from HTML or XML content by navigating and manipulating the document's elements.
 
 3.How It Works
+
 Importing Libraries:  The script starts by importing the required libraries: requests, urllib3, and Beautiful Soup. These libraries are used to make HTTP requests, disable SSL warnings, and parse HTML content, respectively.
 
 Input for URL: The script prompts the user to provide the URL of the product they want to check. The user enters the URL through the standard input.
@@ -35,7 +36,7 @@ Calling the Function: Finally, the check_product_Availability() function is call
   The script will send an HTTP request to the provided URL, scrape the HTML content, and search for the availability element.
   If the product is available, the script will display the availability information. Otherwise, it will indicate that the product is not available.
 
-5. Conclusion: The Product Availability Checker script provides a simple way to check the availability of a product on a given website. By leveraging the requests, urllib3, and BeautifulSoup libraries, the script can fetch the HTML content of a web page, parse it, and extract the product availability information.
+5. Conclusion: The Product Availability Checker script provides a simple way to check the availability of a product on a given website. By leveraging the requests, urllib3, and BeautifulSoup libraries, the script can fetch the HTML content of a web page, parse it, and extract the product availability information
 
 
 
