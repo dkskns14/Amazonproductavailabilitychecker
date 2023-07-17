@@ -1,4 +1,4 @@
-Amazon Product Availability Checker – Documentation
+                                               Amazon Product Availability Checker – Documentation
 
 1.	Introduction: The "Amazon Product Availability Checker" is a Python script that allows users to check the availability of a product on Amazon. It utilizes web scraping techniques to extract the availability information from the product's webpage.
 
