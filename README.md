@@ -38,6 +38,7 @@ The script will send an HTTP request to the provided URL, scrape the HTML conten
 If the product is available, the script will display the availability information. Otherwise, it will indicate that the product is not available.
 
 5. Conclusion:
+
 The Product Availability Checker script provides a simple way to check the availability of a product on a given website. By leveraging the requests, urllib3, and BeautifulSoup libraries, the script can fetch the HTML content of a web page, parse it, and extract the product availability information.
 
 
