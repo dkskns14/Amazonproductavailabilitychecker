@@ -31,7 +31,7 @@ Handling Unavailability: If the availability element is not found, the script di
 
 Calling the Function: Finally, the check_product_Availability() function is called to start the availability check process. The script prompts the user for a URL and performs the necessary operations to check and display the product availability.
 
-4.Usage
+4.Usage:
   
 When prompted, enter the URL of the product on Amazon.
 The script will send an HTTP request to the provided URL, scrape the HTML content, and search for the availability element.
